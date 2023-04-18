@@ -1,0 +1,23 @@
+Source: 
+- https://www.kaggle.com/datasets/shashwatwork/driving-behavior-dataset
+- Yuksel, Asim; Atmaca, Şerafettin (2020), “Driving Behavior Dataset”, Mendeley Data, V2, doi: 10.17632/jj3tw8kj6h.2
+
+Dataset for modeling risky driver behaviors based on accelerometer (X,Y,Z axis in meters per second squared (m/s2)) and gyroscope (X,Y, Z axis in degrees per second (°/s) ) data.
+
+Sampling Rate: Average 2 samples (rows) per second
+
+Cars: Ford Fiesta 1.4, Ford Fiesta 1.25, Hyundai i20
+
+Drivers: 3 different drivers with the ages of 27, 28 and 37
+
+Driver Behaviors:
+    1.Sudden Acceleration (Class Label: 1)
+    2.Sudden Right Turn (Class Label: 2)
+    3.Sudden Left Turn (Class Label: 3)
+    4.Sudden Break (Class Label: 4)
+
+Best Window Size: 14 seconds
+
+Sensor: MPU6050
+
+Device: Raspberry Pi 3 Model B

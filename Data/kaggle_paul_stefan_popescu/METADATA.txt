@@ -1,0 +1,24 @@
+SOURCE:
+- https://www.kaggle.com/datasets/outofskills/driving-behavior
+- DOI.ORG/10.34740/kaggle/dsv/3748585
+
+Solution Approach
+
+Aggressive driving includes speeding, sudden breaks and sudden left or right turns. All these events are reflected on accelerometer and gyroscope data. Therefore, knowing that almost everyone owns a smartphone nowadays which has a wide variety of sensors, we've designed a data collector application in android based on the accelerometer and gyroscope sensors.
+Content
+
+Sampling Rate: 2 samples (rows) per second.
+
+Gravitational acceleration: removed.
+
+Sensors: Accelerometer and Gyroscope.
+
+Data:
+Acceleration (X,Y,Z axis in meters per second squared (m/s2))
+Rotation (X,Y, Z axis in degrees per second (°/s))
+Classification label (SLOW, NORMAL, AGGRESSIVE)
+Timestamp (time in seconds)
+
+Driving Behaviors: Slow, Normal, Aggressive
+
+Device: Samsung Galaxy S21
