@@ -1,0 +1,24 @@
+Source: 
+- https://data.mendeley.com/datasets/5stn873wft/1
+- S. Nazirkar, “Phone sensor data while driving a car and normal or aggressive driving behaviour classification”. Mendeley, 2021. doi: 10.17632/5STN873WFT.1.
+
+Data has been recorded on an android phone attached to the dashboard of the car. Data was collected while driving the car on city roads in mild traffic. 
+The parameters recorded are: 
+- Longitude
+- Latitude
+- Speed
+- Distance
+- Time
+- Accelerometer X
+- Accelerometer Y
+- Accelerometer Z
+- Heading
+- Gyroscope X
+- Gyroscope Y
+- Gyroscope Z
+
+Sampling Rate: Average 2 samples (rows) per second
+
+Driver Behaviors:
+    1. Normal driving (Class Label: 0)
+    2. Aggressive driving (Class Label: 1)
